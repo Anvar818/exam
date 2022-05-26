@@ -1,0 +1,153 @@
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(252, 233, 26, 0.847);
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 24px; */
+    font-weight: 700;
+    
+}   
+
+
+.container{
+    margin: auto;
+    padding: 0 88px;
+    max-width: 1280px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+.general__div{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:260px;
+    height: 375px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: left;margin: auto;
+
+    
+    
+}
+
+
+
+.card-title{
+    font-weight: 700;
+    font-size: 32x;
+    margin-right: 70px;
+    padding: 5px;
+}
+.card-type{
+    font-weight: 500;
+    margin-right: 120px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.card-weight{
+    margin-right: 150px;
+    font-size: 20px;
+   
+}
+.card-height{
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.card-img-top{
+    width: 100px;
+}
+
+
+.div__logo{
+
+    width: 100%;
+    margin-left: 250px;
+    display: flex;
+}
+
+.logo__img{
+    margin-left: 1px;
+}
+
+.logo__img__right{
+    margin-left: 222px;
+    margin-top: -50px;
+}
+
+.div__form{
+    display: block;
+    width: 100%;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.btn{
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: #FFFFFF;
+    font-weight: 700;
+}
+
+.form__select{
+    width: 200px;
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+    
+}
+
+.input{
+    width: 200px;
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+}
+.input__img{
+    margin-left: -33px;
+}
